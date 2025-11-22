@@ -188,10 +188,12 @@ p {
 .work-info h4 {
     font-size: 1.2em;
     background: darkcyan;
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     padding: .6em 1.2em;
     color: #fff;
-	position:relative;
+        position:relative;
 }
 .work-info h4:before {
     width: 0;
@@ -210,7 +212,9 @@ p {
     color: #F7E612;
     margin-bottom: .5em;
     border: 1px solid #F7E612;
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     padding: 0 1.2em;
 }
 .work-info h5 span.glyphicon {
